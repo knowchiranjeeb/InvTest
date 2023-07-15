@@ -10,13 +10,6 @@ const pool = new pg.Pool({
      ssl: {
       rejectUnauthorized: false, 
      },
-    // sslmode: require, 
-
-    /* user: 'csg',
-    host: 'localhost',
-    database: 'Invoice',
-    password: 'csg',
-    port: '5432', */
   }); 
 
   module.exports = pool;
